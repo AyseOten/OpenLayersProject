@@ -1,0 +1,17 @@
+{
+  "name": "openlayersproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "OpenLayersProject.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel OpenLayersProject.html",
+    "build": "parcel build --experimental-scope-hoisting --public-url . OpenLayersProject.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ol": "^6.4.3"
+  }
+  
+}
